@@ -1,0 +1,223 @@
+html{
+    scroll-behavior: smooth !important;
+
+}
+nav {
+    background-color: rgb(15, 36, 83);
+    color: white;
+    text-transform: uppercase;
+}
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+}
+
+.scroll-to-top a {
+    color: #fff;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 50%;
+    text-align: center;
+    display: block;
+    width: 40px;
+    height: 40px;
+    transition: background-color 0.3s ease;
+}
+
+.scroll-to-top a:hover {
+    background-color: #858484;
+}
+
+#gallery .row > div {
+    padding: 0;
+}
+
+#gallery .row > div > img {
+    object-fit: cover;
+    
+}
+
+#gallery .row > div > img:hover {
+    opacity: 0.7;
+}
+#about{
+    padding: 5em 0 5em 0px;
+}
+#about .container h3{
+    margin-bottom: 48px;
+}
+#services .container h3{
+    color: rgb(15, 36, 83);
+}
+
+#services{
+    /* background-image: url('services.jpg'); */
+    /* background-size: cover; */
+    background-image: url('services.jpg');
+    background-size: cover;
+    min-height: 500px;
+    padding:100px 0px;
+}
+#services .service{
+    padding: 2em 2em;
+    background: rgba(0, 0, 0, 0.52);
+    text-align: center;
+    color:white;
+    
+}
+
+.advantage-block > i {
+    color:yellow;
+    font-size: 45px;
+}
+
+.advantage-block .content i{
+    color:yellow;
+    font-size: 16px;
+    margin-right: 10px;
+}
+#services .container h3{
+    margin-bottom: 48px;
+}
+#services .container .row .service:first-child{
+    border-right: 2px solid white;
+}
+
+@media screen and (max-width: 767px){
+    #services .container .row .service:first-child{
+        border-right: none;
+        border-bottom: 2px solid white;
+    }
+   
+    
+}
+#team{
+    padding: 5em 0 5em 0px;
+}
+
+#team .tab-content{
+    padding:30px;
+}
+
+#team .tab-content .position{
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #7d7a7a;
+}
+#team .tab-content img{
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+
+}
+
+#gallery .container-fluid h3{
+    margin-bottom: 48px;
+}
+
+#rooms{
+    padding:100px 0;
+}
+#rooms .container h3{
+    margin-bottom: 48px;
+}
+
+#rooms .row .col-md-3{
+    transition: all 0.3s ease;
+    padding:0 15px;
+    border:none;
+}
+#rooms .row .col-md-3 .card-body{
+    border-left: 1px solid #bbb9b9;
+    border-right: 1px solid #bbb9b9;
+    border-bottom: 1px solid #bbb9b9;
+
+
+}
+#rooms .row .col-md-3:hover{
+    transform: scale(1.1);
+}
+
+#visitor-review{
+    padding:100px 0;
+    background-color: rgb(223, 225, 228);
+}
+
+#visitor-review .container-fluid h3{
+    margin-bottom: 48px;
+    text-align:center;
+}
+.detail-review{
+    padding: 20px 80px;
+}
+
+.detail-review .stars li{
+    display: inline-block;
+}
+
+.detail-review h4{
+    color:rgb(47, 76, 138);
+}
+.fa-star{
+    color: yellow;
+}
+.detail-review h4 ul{
+    padding-left: 0px;
+}
+#visitor-review .carousel-item .col-md-6{
+    position:relative;
+}
+.img-human{
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    width: 60%;
+}
+#visitor-review .carousel-item .col-md-6 img{
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+    border: 10px solid white;
+}
+
+#contact{
+    padding:100px 0;
+    background-image: url('../Images/contact.jpg');
+    color:white;
+}
+#contact .container h4{
+    margin-bottom: 20px;
+}
+#contact .container .contact-form, #contact .container .information{
+    background-color: rgba(0, 0, 0, 0.55);
+    padding:20px;
+
+}
+
+label{
+    margin:10px 0;
+}
+footer{
+    background-color: rgb(15, 36, 83);
+}
+footer p{
+    padding: 14px;
+    color:white;
+    text-align: center;
+    margin:0;
+}
+a{
+    text-decoration: none;
+}
+
+.review::after{
+    content: '';
+    display: block;
+    width: 30%;
+    height: 1px;
+    background-color:#000;
+    margin-top:10px;
+}

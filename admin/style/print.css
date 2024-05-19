@@ -1,0 +1,43 @@
+.wrapper{
+    background-color: rgb(109, 99, 99);
+}
+#invoice{
+    background-color: white;
+    
+}
+.title{
+    background-color: #000;
+    color:#fff;
+}
+
+.first-letter{
+    color:rgb(196, 13, 13);
+    font-size: 3rem;
+}
+.second-letter{
+    color: rgb(213, 213, 19);
+    font-size:3rem;
+}
+th,td{
+    border: 1px solid rgb(144, 141, 141);
+    background-color: rgb(238, 238, 238);
+    border-radius: 2px;
+    padding: 5px;
+}
+
+.footer p{
+    font-style: italic;
+    font-size: 10px;
+    
+}
+.line{
+    margin-top:50px;
+    height: 2px;
+    background-color: rgb(0, 0, 0);
+}
+
+.wrapper button{
+    position: absolute;
+    top:0;
+    right: 0;
+}
